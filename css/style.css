@@ -1,0 +1,224 @@
+html {box-sizing: border-box;}
+*, *::before, *::after{box-sizing: inherit;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,
+textarea,p,blockquote,th,td { 
+  margin:0;
+  padding:0;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-size:100%;
+  font-weight:normal;
+}
+a {color:#000;text-decoration:none;}
+a:hover {color:#909090;text-decoration:none;}
+input,
+select,
+textarea{color:#000;}
+::-moz-selection{background: #e1e1e1;color:#000;}
+::selection{background: #e1e1e1;color:#000;}
+img{vertical-align: middle;}
+fieldset{border:0;padding: 0;margin: 0;}
+textarea{resize: vertical;}
+.chromeframe{margin:0.2 0;border: 0;background:#e1e1e1;padding: 0.2 0;}
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Roboto:ital@1&display=swap');
+
+body{background: #fff;font-family: 'Roboto', sans-serif;}
+.conrainer{position: relative;
+width: 1440px; 
+height: 900px; }
+.box1{ -webkit-border-radius:24px;-moz-border-radius:24px;border-radius:24px;
+position: absolute;background: #000;
+width: 132px;
+height: 852px;
+left: 32.34px;
+top: 24.02px;}
+.text-f{position: absolute;
+width: 47px;
+height: 102px;
+left: 50px;
+top: 39.67px;
+font-family: 'Baloo Bhai 2, sans-serif';
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 102px;
+color: #FFFFFF;}
+.hone-icon{position: absolute;
+left: 40%;
+right: 92.27%;
+top: 22.89%;
+bottom: 74.22%;
+background: #FFFFFF;}
+.user-icon{position: absolute;
+width: 22.89px;
+height: 26.04px;
+left: 55px;
+top: 382.1px;}
+.letter-icon{position: absolute;
+width: 25.94px;
+height: 22.81px;
+left: 54px;
+top: 471.99px;}
+.settings-icon{position: absolute;
+width: 26px;
+height: 26px;
+left: 54px;
+top: 558.98px;}
+.log-icon{position: absolute;
+width: 26.1px;
+height: 26.11px;
+left: 54px;
+top: 780px;}
+
+
+
+.box2{position: absolute;
+width: 620px;
+height: 160px;
+left: 236.32px;
+top: 64.25px;
+background: #F5F5F7;
+-webkit-border-radius:14px;-moz-border-radius:14px;border-radius:14px;}
+.box2-text1{position:relative;margin-top:20px;margin-left:30px;font-family: Baloo Bhai 2, sans-serif;font-style: normal;font-weight: 400;
+font-size: 30px;line-height: 57px;color:#000;width: 178px;height: 57px;}
+.box2-text2{position:relative;margin-top:0px;margin-left:30px;font-family: 'Roboto', sans-serif;
+font-style: normal;font-weight: 400;font-size: 14px;line-height: 24px;color:#000;width: 185px;height: 24px;}
+.box2-imag{position:relative;margin-top:-140px;margin-left:370px;}
+
+
+
+.box3{position: absolute; 
+width: 438.9px;
+height: 43px;
+left: 920.78px;
+top: 52.25px;}
+.box3-search-box{width: 300px;height: 40px;background: #F5F5F7;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;
+border:1px solid #F5F5F7;outline:none;}
+.box3-search-box-input{width: 250px;height: 40px;float:right;border:1px solid #F5F5F7;outline:none;background: #F5F5F7;
+-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;}
+.box3-search-icon{width:20px;height: 20px;margin-left:20px;margin-top:10px;position: absolute;}
+.box3bell{margin-left:333px;margin-top:-40px;width:30px;height:36px;position: absolute;}
+.box3prof{margin-left:383px;margin-top:-40px;width:30px;height:36px;position: absolute;}
+
+
+
+.box4{position: absolute; 
+width: 439.78px;
+height: 106.05px;
+left: 920.22px;
+top: 118.92px;}
+.box4-ins1{background: #F5F5F7;width:208px;height:96px;
+-webkit-border-radius:14px;-moz-border-radius:14px;border-radius:14px;}
+.box4-ins2{background: #F5F5F7;width:208px;height:96px;
+-webkit-border-radius:14px;-moz-border-radius:14px;border-radius:14px;margin-left:232px;margin-top:-96px;
+position: absolute;}
+.box4-text1{font-family: Baloo Bhai, sans-serif;font-style: normal;font-weight: bold;font-size: 64px;line-height: 102px;color: #000000;
+  margin-left:30px;}
+.box4-text2{font-family: 'Roboto', sans-serif;font-style: normal;font-weight: normal;font-size: 16px;line-height: 24px;color: #000000;
+position:absolute;margin-top:-74px;margin-left:100px;}
+.box4-text11{font-family: Baloo Bhai, sans-serif;font-style: normal;font-weight: bold;font-size: 64px;line-height: 102px;color: #000000;
+  margin-left:40px;}
+.box4-text22{font-family: 'Roboto', sans-serif;font-style: normal;font-weight: normal;font-size: 16px;line-height: 24px;color: #000000;
+position:absolute;margin-top:-74px;margin-left:90px;}
+
+
+
+.box5{position: absolute; 
+width: 620px;
+height: 80px;
+left: 236px;
+top: 239.34px;}
+.box5-ins{width: 500.26px;height: 80px;left: 236px;top: 239.34px;background: #F5F5F7;
+  -webkit-border-radius:14px;-moz-border-radius:14px;border-radius:14px;}
+  .box5-right{width: 96.1px;height: 40px;background: #fff;margin-left:524px;margin-top:-60px;}
+.box5-korob{width: 64px;height: 64px;background: #FFFFFF;-webkit-border-radius:12px;-moz-border-radius:12px;border-radius:12px;
+margin-left:8px;margin-top:8px;position: absolute;}
+ .box5fire2{width: 40px;height: 40px;margin-left:270px;margin-top:-27px;}
+.box5fire2-text{font-family: 'Roboto', sans-serif;font-style: normal;font-weight: normal;font-size: 13px;line-height: 15px;
+  margin-left:280px;margin-top:-30px;}
+.box5-text6{font-family: Baloo Bhai 2;font-style: normal;font-weight: bold;font-size: 16px;line-height: 26px;
+  margin-left:100px;padding-top:20px;}
+.box5-text7{color: #000000;font-family: 'Roboto', sans-serif;font-style: normal;font-weight: normal;font-size: 13px;line-height: 15px;
+  margin-left:100px;}
+.box5-but{width: 120px;height: 40px;background: #000000;color:#fff;padding:12px 24px;font-family: 'Roboto', sans-serif;
+    -webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;margin-left:345px;}
+.box5-but-marg{margin-top:-30px;}
+.box5-arrowleft{widows: 40px;height: 40px;}
+.box5-arrowright{widows: 40px;height: 40px;margin-left:10px;}
+
+
+
+
+.box6{position: absolute; 
+width: 620px;
+height: 554.49px;
+left: 236px;
+top: 359.15px;}
+.box6-text1{font-family: 'Baloo Bhai 2', sans-serif;font-style: normal;font-weight: bold;font-size: 24px;line-height: 38px;
+color: #000000;}
+.box6-text2{font-family: Baloo Bhai, sans-serif;font-style: normal;font-weight: bold;font-size: 16px;line-height: 26px;
+color: #000000;}
+.box6-text3{font-family: Baloo Bhai, sans-serif;font-style: normal;font-weight: bold;font-size: 16px;line-height: 26px;
+color: #909090;margin-left:130px;margin-top:-25px;}
+.box6-text4{font-family: Baloo Bhai, sans-serif;font-style: normal;font-weight: bold;font-size: 16px;line-height: 26px;
+color: #909090;margin-left:260px;margin-top:-25px;}
+.box6-text5{font-family: Baloo Bhai, sans-serif;font-style: normal;font-weight: bold;font-size: 16px;line-height: 26px;
+color: #909090;margin-left:380px;margin-top:-25px;}
+.box6-ins{width: 620px;height: 80px;background: #F5F5F7;margin-top:15px;
+-webkit-border-radius:14px;-moz-border-radius:14px;border-radius:14px;}
+.box6-korob{width: 64px;height: 64px;background: #FFFFFF;-webkit-border-radius:12px;-moz-border-radius:12px;border-radius:12px;
+margin-left:8px;margin-top:8px;position: absolute;}
+.box6pic2{text-align:center;margin:0 auto;padding-top:15px;}
+.box6-text6{font-family: Baloo Bhai, sans-serif;font-style: normal;font-weight: bold;font-size: 16px;line-height: 26px;
+  margin-left:100px;padding-top:20px;}
+.box6-text7{color: #000000;font-family: 'Roboto', sans-serif;font-style: normal;font-weight: normal;font-size: 13px;line-height: 15px;
+  margin-left:100px;}
+.box6clock{margin-left:270px;margin-top:-30px;}
+.box6clock-text{margin-left:295px;margin-top:-15px;font-family: 'Roboto', sans-serif;font-style: normal;font-weight: normal;font-size: 13px;
+line-height: 15px;}
+.box6fire{margin-left:380px;margin-top:-20px;}
+.box6fire-text{font-family: 'Roboto', sans-serif;font-style: normal;font-weight: normal;font-size: 13px;line-height: 15px;
+  margin-left:400px;margin-top:-15px;}
+  .box6-but{width: 120px;height: 40px;background: #000000;color:#fff;padding:12px 24px;
+    -webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;margin-left:475px;}
+.box6-but-marg{margin-top:-20px;}
+
+
+
+.box7{position: absolute; 
+width: 449.59px;
+height: 378.5px;
+left: 923.69px;
+top: 255.29px;}
+.box7-text1{font-family: Baloo Bhai, sans-serif;font-style: normal;font-weight: bold;font-size: 24px;line-height: 38px;
+color: #000000;}
+.box7-text2{font-family: Baloo Bhai, sans-serif;font-style: normal;font-weight: bold;font-size: 16px;line-height: 26px;
+color: #000000;}
+.box7-text3{font-family: Baloo Bhai, sans-serif;font-style: normal;font-weight: bold;font-size: 16px;line-height: 26px;
+color: #909090;margin-left:140px;margin-top:-25px;}
+.box7pic{width: 449.59px;height: 266.15px;margin-top:20px;}
+
+
+
+.box8{position: absolute; 
+width: 440px;
+height: 193px;
+left: 920.06px;
+top: 683px;background: #F5F5F7;
+-webkit-border-radius:14px;-moz-border-radius:14px;border-radius:14px;}
+.box8-text1{position:relative;margin-top:20px;margin-left:30px;font-family: Baloo Bhai, sans-serif;font-style: normal;font-weight: bold;
+font-size: 20px;line-height: 38px;color: #000000;width: 176px;height: 38px;}
+.box8-text2{position:relative;margin-top:0px;margin-left:30px;font-family: 'Roboto', sans-serif;font-style: normal;font-weight: normal;
+font-size: 15px;line-height: 24px;color: #000000;width: 179px;height: 48px;}
+.box8-but{position:relative;margin-left:30px;width: 120px;height: 40px;background: #000;color:#fff;text-align: center;
+-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;padding:12px 24px;}
+.box8-but-marg{margin-top:20px;}
+.box8-imag{position:relative;margin-top:-120px;margin-left:290px;}
+.box8-inp{position: absolute;width: 88px;height: 32px;right: 10px;top: 30px;background: #F5F5F7;
+-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;}
+.box8-inp-center{text-align:center;padding-top:5px;}
+
+ 
+
